@@ -1,0 +1,84 @@
+html {
+  margin: 5px;
+}
+
+div {
+  border: 1px solid black;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+#header-menus {
+  display: flex;
+  list-style: none;
+}
+
+#header-menus a {
+  margin-right: 15px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.search {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.search form {
+  display: block;
+  width: 100px;
+}
+
+.search form > * {
+  margin-bottom: 30px;
+}
+
+.search input {
+  width: 80px;
+}
+
+.search label #year-released {
+  width: 60px;
+}
+
+.search-results {
+  flex: 4;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.card {
+  flex: 0 0 31%;
+  padding: 5px;
+  margin: 10px;
+}
+
+/* .header {
+  grid-area: header;
+}
+
+.search {
+  grid-area: search;
+}
+
+.search-results {
+  grid-area: search-results;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "search search-results search-results"
+    "footer footer footer";
+  grid-gap: 15px;
+} */
