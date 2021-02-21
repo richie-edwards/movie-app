@@ -1,0 +1,4 @@
+{
+  "baseUrl": "https://demo.nopcommerce.com/",
+  "integrationFolder": "cypress/e2e"
+}

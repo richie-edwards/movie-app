@@ -20,6 +20,8 @@
   "homepage": "https://github.com/richie-edwards/movie-app#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "cypress": "^6.5.0",
+    "cypress-testing-library": "^4.0.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
